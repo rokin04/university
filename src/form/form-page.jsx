@@ -47,6 +47,7 @@ const SubmitButtonSTyled = styled.button`
   width: 83%;
   height: 2.5rem;
   color: white;
+  font-size: 1rem;
   font-weight: bold;
   margin-bottom: 0.8rem;
   border-radius: 0.1rem;

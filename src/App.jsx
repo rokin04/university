@@ -61,7 +61,7 @@ const HeaderContent = styled.h4`
 const FooterStyled = styled.footer`
   display: flex;
   margin: 3rem 0;
-  height: 3rem;
+  min-height: 3rem;
   background-color: #012f6d;
 `;
 
@@ -69,7 +69,7 @@ const FooterContent = styled.div`
   color: white;
   line-height: 3rem;
   text-align: center;
-  width: 50%;
+  flex: 1;
 `;
 
 const ButtonTopStyled = styled.button`
@@ -104,9 +104,11 @@ const App = () => {
       <FormPage />
       <Body />
       <FooterStyled>
-        <FooterContent>University of Huston-Downtown</FooterContent>
         <FooterContent>
-          Home | Degree Programs
+          <span>University of Huston-Downtown</span>
+        </FooterContent>
+        <FooterContent>
+          <span>Home | Degree Programs</span>
           <ButtonTopStyled onClick={handleOnClick}>Top</ButtonTopStyled>
         </FooterContent>
       </FooterStyled>

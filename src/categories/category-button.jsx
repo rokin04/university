@@ -5,7 +5,7 @@ const CategoriesButtonStyled = styled.button`
   border: none;
   outline: none;
   color: ${({ isSelected }) => (isSelected ? "white" : "#012f6d")};
-  min-width: 9.9rem;
+  min-width: 8rem;
   height: 2.5rem;
   margin: 0.2rem;
   cursor: pointer;
