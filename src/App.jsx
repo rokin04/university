@@ -94,7 +94,7 @@ const App = () => {
       <HeaderStyled>
         <HeaderContent>University of Houston-Downtown</HeaderContent>
         <HeaderContent>
-          Call 713-221-8522 to speak to an admission coulcellor
+          Call 713-221-8522 to speak to an admission councellor
         </HeaderContent>
       </HeaderStyled>
       <NavigationStyled>
